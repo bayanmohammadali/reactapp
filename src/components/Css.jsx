@@ -2,15 +2,13 @@
 import React, { Component } from "react";
 import Header from "./header";
 import Footer from "./footer";  
-
+import Main from "./Main";  
 class Css extends Component {
   render() {
     return (
       <>
       <Header />
-      <main>
-        Css page
-      </main>
+      <Main NamePage="Css Page"/>
       <Footer />
     </>
     );

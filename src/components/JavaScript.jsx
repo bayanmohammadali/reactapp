@@ -1,7 +1,8 @@
 
 import React, { Component } from "react";
 import Header from "./header";
-import Footer from "./footer";  
+import Footer from "./footer"; 
+import Main from "./Main";
 
 class JavaScript extends Component {
   render() {
@@ -9,9 +10,7 @@ class JavaScript extends Component {
       <>
       
       <Header />
-      <main>
-        JavaScript page
-      </main>
+      <Main NamePage="JavaScript Page"/>
       <Footer />
     </>
     );

@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import Header from "./header";
 import Footer from "./footer";  
+import Main from "./Main";
+
 
 class Html extends Component {
   render() {
     return (
       <>
       <Header />
-      <main>
-        Html page
-      </main>
+      <Main NamePage="Html Page" designer="Ali"/>
       <Footer />
     </>
     );
